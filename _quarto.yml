@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "david-quarto-website"
+  title: "David Keyes"
   navbar:
     left:
       - href: index.qmd
