@@ -2,4 +2,4 @@
 title: "David Keyes"
 ---
 
-This is a Quarto website made by David Keyes.
+This is a Quarto website made by David Keyes. It's the best website ever!
