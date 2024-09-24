@@ -1,5 +1,5 @@
 ---
-title: "david-quarto-website"
+title: "David Keyes"
 ---
 
 This is a Quarto website made by David Keyes.
