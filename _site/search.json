@@ -4,13 +4,13 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "David Keyes is a self-taught R user with a qualitative background who helps people who don’t think of themselves as R users learn to use this powerful tool. As the founder of R for the Rest of Us, he develops courses to help individuals, conducts corporate trainings, and does consulting work to help organizations harness the power of R."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "david-quarto-website",
+    "title": "David Keyes",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website made by David Keyes. It’s the best website ever!"
   }
 ]

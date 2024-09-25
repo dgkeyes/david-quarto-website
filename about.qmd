@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-About this site
+![](david.jpg)
 
-```{r}
-1 + 1
-```
+David Keyes is a self-taught R user with a qualitative background who helps people who don't think of themselves as R users learn to use this powerful tool. As the founder of R for the Rest of Us, he develops courses to help individuals, conducts corporate trainings, and does consulting work to help organizations harness the power of R.  
