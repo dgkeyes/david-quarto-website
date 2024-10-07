@@ -16,11 +16,28 @@ library(tidyverse)
 library(readxl)
 library(gt)
 
+# keydates <-
+#   read_excel("keydates.xlsx")
+# 
+# keydates |> 
+#   filter(event != "David is born") |> 
+#   gt()
+```
+
+```{r}
+#| warning: false
+#| echo: false
+#| message: false
+library(googlesheets4)
+
+gs4_auth(Sys.getenv("GOOGLE_SHEETS_EMAIL"))
+
 keydates <-
-  read_excel("keydates.xlsx")
+  read_sheet("https://docs.google.com/spreadsheets/d/1lpXEh2_B3LZpMXQLXnRW7gFLhtb6Rw9knpmAjEVi0cA/edit?pli=1&gid=0#gid=0")
 
 keydates |> 
   filter(event != "David is born") |> 
   gt()
 ```
+
 
