@@ -4,7 +4,7 @@ title: "About"
 
 ![](david.jpg)
 
-David Keyes is a self-taught R user with a qualitative background who helps people who don't think of themselves as R users learn to use this powerful tool. As the founder of R for the Rest of Us, he develops courses to help individuals, conducts corporate trainings, and does consulting work to help organizations harness the power of R. He has lived in Portland, Oregon with his family since 2013. He is originally from Ohio.
+David Keyes is a self-taught R user with a qualitative background who helps people who don't think of themselves as R users learn to use this powerful tool. As the founder of R for the Rest of Us, he develops courses to help individuals, conducts corporate trainings, and does consulting work to help organizations harness the power of R. He has lived in Portland, Oregon with his family since 2013. He is originally from Yellow Springs, Ohio.
 
 # Key Dates
 
@@ -16,28 +16,10 @@ library(tidyverse)
 library(readxl)
 library(gt)
 
-# keydates <-
-#   read_excel("keydates.xlsx")
-# 
-# keydates |> 
-#   filter(event != "David is born") |> 
-#   gt()
-```
-
-```{r}
-#| warning: false
-#| echo: false
-#| message: false
-library(googlesheets4)
-
-gs4_auth(Sys.getenv("GOOGLE_SHEETS_EMAIL"))
-
 keydates <-
-  read_sheet("https://docs.google.com/spreadsheets/d/1lpXEh2_B3LZpMXQLXnRW7gFLhtb6Rw9knpmAjEVi0cA/edit?pli=1&gid=0#gid=0")
+  read_excel("keydates.xlsx")
 
-keydates |> 
-  filter(event != "David is born") |> 
+keydates |>
+  filter(event != "David is born") |>
   gt()
 ```
-
-
