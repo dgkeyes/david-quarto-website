@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "David Keyes is a self-taught R user with a qualitative background who helps people who don’t think of themselves as R users learn to use this powerful tool. As the founder of R for the Rest of Us, he develops courses to help individuals, conducts corporate trainings, and does consulting work to help organizations harness the power of R. He has lived in Portland, Oregon with his family since 2013. He is originally from Yellow Springs, Ohio.\n\nKey Dates\n\n\n\n\n\n\n\n\ndate\nevent\n\n\n\n\n1998-06-01\nDavid graduates high school\n\n\n2002-05-15\nDavid graduates college\n\n\n2005-06-01\nDavid finishes his master's degree\n\n\n2014-05-01\nDavid finishes his PhD\n\n\n2019-01-01\nDavid starts R for the Rest of Us"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David Keyes",
+    "section": "",
+    "text": "This is a Quarto website made by David Keyes. It’s the best website ever!\nIf you like it too, please, please email me."
+  }
+]
