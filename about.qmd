@@ -12,7 +12,7 @@ David Keyes is a self-taught R user with a qualitative background who helps peop
 #| warning: false
 #| echo: false
 #| message: false
-library(tidyverse)
+library(dplyr)
 library(readxl)
 library(gt)
 
