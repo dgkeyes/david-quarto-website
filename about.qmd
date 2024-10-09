@@ -6,20 +6,3 @@ title: "About"
 
 David Keyes is a self-taught R user with a qualitative background who helps people who don't think of themselves as R users learn to use this powerful tool. As the founder of R for the Rest of Us, he develops courses to help individuals, conducts corporate trainings, and does consulting work to help organizations harness the power of R. He has lived in Portland, Oregon with his family since 2013. He is originally from Yellow Springs, Ohio.
 
-# Key Dates
-
-```{r}
-#| warning: false
-#| echo: false
-#| message: false
-# library(tidyverse)
-# library(readxl)
-# library(gt)
-# 
-# keydates <-
-#   read_excel("keydates.xlsx")
-# 
-# keydates |>
-#   filter(event != "David is born") |>
-#   gt()
-```
