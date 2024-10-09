@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 807dfe3d-b9d6-47b4-a2af-b3414eb6774f
+      url: 'https://effulgent-treacle-f6bb56.netlify.app'

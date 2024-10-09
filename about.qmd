@@ -12,14 +12,14 @@ David Keyes is a self-taught R user with a qualitative background who helps peop
 #| warning: false
 #| echo: false
 #| message: false
-library(tidyverse)
-library(readxl)
-library(gt)
-
-keydates <-
-  read_excel("keydates.xlsx")
-
-keydates |>
-  filter(event != "David is born") |>
-  gt()
+# library(tidyverse)
+# library(readxl)
+# library(gt)
+# 
+# keydates <-
+#   read_excel("keydates.xlsx")
+# 
+# keydates |>
+#   filter(event != "David is born") |>
+#   gt()
 ```
